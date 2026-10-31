@@ -20,6 +20,24 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+
+  display: flex;
+  flex-flow: row;
+  padding: 20px;
+}
+
+.one{
+  display: flex;
+  gap: 100px;
+}
+
+.rest-right{
+  padding: 0px 20px;
+}
+
+.text{
+  margin-bottom: 10px;
+  margin-top: 5px;
 }
 
 .icon {
@@ -35,6 +53,11 @@ body {
   justify-content: center;
 }
 
+.cross-btn{
+  width: 30px;
+  height: 30px;
+}
+
 .close-button {
   background: #eee;
   border-radius: 50%;
@@ -47,7 +70,15 @@ body {
   align-items: center;
   justify-content: center;
   border: 1px solid #eee;
-  padding: 0;
+  padding: 2px;
+  margin-left: 29px;
+}
+
+.header{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  font-size:16px;
+  align-content: center;
 }
 
 button {
