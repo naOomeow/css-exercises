@@ -1,4 +1,8 @@
 .header  {
+  display: flex;
+  align-items: center;
+  justify-content: space-around ;
+  flex-flow: row;
   font-family: monospace;
   background: papayawhip;
 }
@@ -11,15 +15,19 @@
   padding: 4px 32px;
 }
 
+
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  padding: 0px;
+  display: flex;
+  gap: 8px;
 }
 
 a {
   font-size: 22px;
   background: white;
-  padding: 8px;
+  padding: 0px;
   /* this removes the line under the links */
   text-decoration: none;
 }
